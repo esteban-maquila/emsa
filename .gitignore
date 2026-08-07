@@ -1,0 +1,21 @@
+# Imagenes originales sin comprimir (18 MB). No se publican: la web solo carga
+# las versiones optimizadas de assets/img/. Se conservan en el disco local para
+# poder regenerarlas con tools/optimizar-imagenes.py
+img/
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Python (script de optimizacion de imagenes)
+__pycache__/
+*.pyc
+.venv/
+venv/
